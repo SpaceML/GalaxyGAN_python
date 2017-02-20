@@ -13,37 +13,33 @@ import pyfits
 parser = argparse.ArgumentParser()
 
 def fspecial_gauss(size, sigma):
-    """Function to mimic the 'fspecial' gaussian MATLAB function
-    """
     x, y = np.mgrid[-size//2 + 1:size//2 + 1, -size//2 + 1:size//2 + 1]
     g = np.exp(-((x**2 + y**2)/(2.0*sigma**2)))
     return g/g.sum()
 
 def roou():
     is_demo = 0
-
     parser.add_argument("--fwhm", default="1.4")
     parser.add_argument("--sig", default="1.2")
-    parser.add_argument("--input_folder", default='./fits_0.01_0.02')
-    parser.add_argument("--figure_folder", default="./figures/test")
+    parser.add_argument("--input", default='./fits_0.01_0.02')
+    parser.add_argument("--figure", default="./figures/test")
     args = parser.parse_args()
 
-    train_folder = '%s/train'%(args.figure_folder)
-    test_folder = '%s/test'%(args.figure_folder)
-    deconv_folder = '%s/deconv'%(args.figure_folder)
+    train_folder = '%s/train'%(args.figure)
+    test_folder = '%s/test'%(args.figure)
+    deconv_folder = '%s/deconv'%(args.figure)
 
-
-    if ~os.path.exists("./figure_folder"):
-        os.makedirs("./figure_folder")
-    if ~os.path.exists("./train_folder"):
-        os.makedirs("./train_folder")
-    if ~os.path.exists("./test_folder"):
-        os.makedirs("./test_folder")
-    if ~os.path.exists("./deconv_folder"):
-        os.makedirs("./deconv_folder")
+    if ~os.path.exists('./' + args.figure_folder):
+        os.makedirs("./" + args.figure_folder)
+    if ~os.path.exists("./" + train_folder):
+        os.makedirs("./" + train_folder)
+    if ~os.path.exists("./" + test_folder):
+        os.makedirs("./" + test_folder)
+    if ~os.path.exists("./" + deconv_folder):
+        os.makedirs("./"+ deconv_folder)
 
     fits = '%s/*/*-g.fits'%(args.input_folder)
-    files = dir(fits)
+    files = os.listdir(fits)
 
     for i in files:
         file_name = i
@@ -173,4 +169,4 @@ def roou():
             deconv_path = '%s/deconv/%s.jpg'% (figure_folder,filename)
             cv2.imwrite(figure_deconv,deconv_path)
 
-
+roou()
