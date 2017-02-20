@@ -1,11 +1,11 @@
 class Config:
-    data_path = "./datasets/facades"
-    model_path = ""#"./datasets/facades/checkpoint/model_100.ckpt"
+    data_path = "./figures/train"
+    model_path = "" #"./datasets/facades/checkpoint/model_100.ckpt"
     output_path = "./results"
 
-    img_size = 256
-    adjust_size = 286
-    train_size = 256
+    img_size = 424
+    adjust_size = 500
+    train_size = 424
     img_channel = 3
     conv_channel_base = 64
 

@@ -2,8 +2,514 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3d74cac-ec78-4747-baf2-6a1f7af63848" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/train.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587724649259466766.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587725489986928743.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587725503409488068.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587725980688973968.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587726015079579817.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587726016146309329.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587728309631975612.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587729386614423693.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587731172234559623.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587731186735841374.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587731873384563031.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587731885733773456.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587731912035795024.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587732053236121646.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587732153109512274.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587732154180567143.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587732483836346531.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587732703410061514.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587733399715315809.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587733412067606850.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587733603184803921.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587733605338251348.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587735344265494665.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587735348038598761.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587735429082644538.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587735430694371351.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587736809913450508.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587736915138117753.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587736946276368812.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587737809031266547.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587737825139491154.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587737826220769376.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587738371672768610.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587738947736633359.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587739132417474622.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587739153890410971.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587739153892442276.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587739304758018175.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587739377229168774.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587739505549639805.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587739506086510726.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587739608623284324.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587739610235797563.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587739646739677230.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587741489814634803.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587741489820139551.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587741600959889429.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587741602030026777.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587741708332040308.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587741722823819353.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587741821066215606.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587741829653594400.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587742013826203675.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587742061589954722.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587742188835242036.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587742189365297218.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587742551215702121.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587742577516675114.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587742589331374460.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587742775086088228.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587742775092969546.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587744875327717463.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587745245240229897.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/587745539439263959.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/588007003629289609.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/588009370147881038.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/588010360698896440.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/588015509811888189.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/588015510347710549.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/588016840170537340.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/588017625091735645.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/588017626165412027.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/588017627233583304.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/588017978364461087.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/588023046395723861.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/588023669709537408.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/588023721247572115.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/588298662511050862.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/figures/train/588848901519966374.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_test/587724648721678356/587724648721678356-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_test/587724648721678356/587724648721678356-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_test/587724648721678356/587724648721678356-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_test/587724648721678356/587724648721678356-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_test/587724648721678356/587724648721678356-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_test/587725816409161837/587725816409161837-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_test/587725816409161837/587725816409161837-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_test/587725816409161837/587725816409161837-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_test/587725816409161837/587725816409161837-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_test/587725816409161837/587725816409161837-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_test/587732152555602007/587732152555602007-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_test/587732152555602007/587732152555602007-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_test/587732152555602007/587732152555602007-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_test/587732152555602007/587732152555602007-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_test/587732152555602007/587732152555602007-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_test/587739845929599299/587739845929599299-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_test/587739845929599299/587739845929599299-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_test/587739845929599299/587739845929599299-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_test/587739845929599299/587739845929599299-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_test/587739845929599299/587739845929599299-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_test/587742061625081861/587742061625081861-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_test/587742061625081861/587742061625081861-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_test/587742061625081861/587742061625081861-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_test/587742061625081861/587742061625081861-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_test/587742061625081861/587742061625081861-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587724649259466766/587724649259466766-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587724649259466766/587724649259466766-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587724649259466766/587724649259466766-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587724649259466766/587724649259466766-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587724649259466766/587724649259466766-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587725489986928743/587725489986928743-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587725489986928743/587725489986928743-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587725489986928743/587725489986928743-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587725489986928743/587725489986928743-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587725489986928743/587725489986928743-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587725503409488068/587725503409488068-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587725503409488068/587725503409488068-g.fits.bz2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587725503409488068/587725503409488068-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587725503409488068/587725503409488068-i.fits.bz2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587725503409488068/587725503409488068-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587725503409488068/587725503409488068-r.fits.bz2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587725503409488068/587725503409488068-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587725503409488068/587725503409488068-u.fits.bz2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587725503409488068/587725503409488068-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587725503409488068/587725503409488068-z.fits.bz2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587725980688973968/587725980688973968-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587725980688973968/587725980688973968-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587725980688973968/587725980688973968-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587725980688973968/587725980688973968-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587725980688973968/587725980688973968-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587726015079579817/587726015079579817-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587726015079579817/587726015079579817-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587726015079579817/587726015079579817-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587726015079579817/587726015079579817-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587726015079579817/587726015079579817-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587726016146309329/587726016146309329-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587726016146309329/587726016146309329-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587726016146309329/587726016146309329-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587726016146309329/587726016146309329-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587726016146309329/587726016146309329-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587728309631975612/587728309631975612-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587728309631975612/587728309631975612-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587728309631975612/587728309631975612-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587728309631975612/587728309631975612-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587728309631975612/587728309631975612-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587729386614423693/587729386614423693-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587729386614423693/587729386614423693-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587729386614423693/587729386614423693-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587729386614423693/587729386614423693-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587729386614423693/587729386614423693-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587731172234559623/587731172234559623-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587731172234559623/587731172234559623-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587731172234559623/587731172234559623-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587731172234559623/587731172234559623-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587731172234559623/587731172234559623-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587731186735841374/587731186735841374-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587731186735841374/587731186735841374-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587731186735841374/587731186735841374-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587731186735841374/587731186735841374-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587731186735841374/587731186735841374-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587731873384563031/587731873384563031-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587731873384563031/587731873384563031-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587731873384563031/587731873384563031-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587731873384563031/587731873384563031-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587731873384563031/587731873384563031-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587731885733773456/587731885733773456-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587731885733773456/587731885733773456-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587731885733773456/587731885733773456-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587731885733773456/587731885733773456-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587731885733773456/587731885733773456-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587731912035795024/587731912035795024-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587731912035795024/587731912035795024-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587731912035795024/587731912035795024-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587731912035795024/587731912035795024-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587731912035795024/587731912035795024-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587732053236121646/587732053236121646-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587732053236121646/587732053236121646-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587732053236121646/587732053236121646-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587732053236121646/587732053236121646-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587732053236121646/587732053236121646-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587732153109512274/587732153109512274-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587732153109512274/587732153109512274-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587732153109512274/587732153109512274-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587732153109512274/587732153109512274-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587732153109512274/587732153109512274-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587732154180567143/587732154180567143-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587732154180567143/587732154180567143-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587732154180567143/587732154180567143-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587732154180567143/587732154180567143-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587732154180567143/587732154180567143-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587732483836346531/587732483836346531-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587732483836346531/587732483836346531-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587732483836346531/587732483836346531-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587732483836346531/587732483836346531-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587732483836346531/587732483836346531-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587732703410061514/587732703410061514-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587732703410061514/587732703410061514-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587732703410061514/587732703410061514-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587732703410061514/587732703410061514-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587732703410061514/587732703410061514-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587733399715315809/587733399715315809-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587733399715315809/587733399715315809-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587733399715315809/587733399715315809-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587733399715315809/587733399715315809-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587733399715315809/587733399715315809-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587733412067606850/587733412067606850-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587733412067606850/587733412067606850-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587733412067606850/587733412067606850-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587733412067606850/587733412067606850-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587733412067606850/587733412067606850-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587733603184803921/587733603184803921-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587733603184803921/587733603184803921-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587733603184803921/587733603184803921-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587733603184803921/587733603184803921-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587733603184803921/587733603184803921-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587733605338251348/587733605338251348-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587733605338251348/587733605338251348-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587733605338251348/587733605338251348-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587733605338251348/587733605338251348-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587733605338251348/587733605338251348-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587735344265494665/587735344265494665-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587735344265494665/587735344265494665-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587735344265494665/587735344265494665-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587735344265494665/587735344265494665-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587735344265494665/587735344265494665-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587735348038598761/587735348038598761-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587735348038598761/587735348038598761-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587735348038598761/587735348038598761-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587735348038598761/587735348038598761-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587735348038598761/587735348038598761-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587735429082644538/587735429082644538-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587735429082644538/587735429082644538-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587735429082644538/587735429082644538-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587735429082644538/587735429082644538-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587735429082644538/587735429082644538-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587735430694371351/587735430694371351-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587735430694371351/587735430694371351-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587735430694371351/587735430694371351-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587735430694371351/587735430694371351-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587735430694371351/587735430694371351-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587736809913450508/587736809913450508-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587736809913450508/587736809913450508-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587736809913450508/587736809913450508-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587736809913450508/587736809913450508-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587736809913450508/587736809913450508-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587736915138117753/587736915138117753-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587736915138117753/587736915138117753-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587736915138117753/587736915138117753-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587736915138117753/587736915138117753-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587736915138117753/587736915138117753-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587736946276368812/587736946276368812-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587736946276368812/587736946276368812-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587736946276368812/587736946276368812-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587736946276368812/587736946276368812-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587736946276368812/587736946276368812-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587737809031266547/587737809031266547-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587737809031266547/587737809031266547-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587737809031266547/587737809031266547-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587737809031266547/587737809031266547-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587737809031266547/587737809031266547-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587737825139491154/587737825139491154-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587737825139491154/587737825139491154-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587737825139491154/587737825139491154-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587737825139491154/587737825139491154-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587737825139491154/587737825139491154-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587737826220769376/587737826220769376-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587737826220769376/587737826220769376-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587737826220769376/587737826220769376-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587737826220769376/587737826220769376-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587737826220769376/587737826220769376-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587738371672768610/587738371672768610-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587738371672768610/587738371672768610-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587738371672768610/587738371672768610-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587738371672768610/587738371672768610-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587738371672768610/587738371672768610-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587738947736633359/587738947736633359-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587738947736633359/587738947736633359-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587738947736633359/587738947736633359-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587738947736633359/587738947736633359-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587738947736633359/587738947736633359-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739132417474622/587739132417474622-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739132417474622/587739132417474622-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739132417474622/587739132417474622-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739132417474622/587739132417474622-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739132417474622/587739132417474622-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739153890410971/587739153890410971-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739153890410971/587739153890410971-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739153890410971/587739153890410971-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739153890410971/587739153890410971-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739153890410971/587739153890410971-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739153892442276/587739153892442276-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739153892442276/587739153892442276-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739153892442276/587739153892442276-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739153892442276/587739153892442276-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739153892442276/587739153892442276-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739304758018175/587739304758018175-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739304758018175/587739304758018175-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739304758018175/587739304758018175-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739304758018175/587739304758018175-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739304758018175/587739304758018175-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739377229168774/587739377229168774-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739377229168774/587739377229168774-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739377229168774/587739377229168774-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739377229168774/587739377229168774-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739377229168774/587739377229168774-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739505549639805/587739505549639805-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739505549639805/587739505549639805-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739505549639805/587739505549639805-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739505549639805/587739505549639805-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739505549639805/587739505549639805-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739506086510726/587739506086510726-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739506086510726/587739506086510726-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739506086510726/587739506086510726-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739506086510726/587739506086510726-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739506086510726/587739506086510726-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739608623284324/587739608623284324-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739608623284324/587739608623284324-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739608623284324/587739608623284324-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739608623284324/587739608623284324-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739608623284324/587739608623284324-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739610235797563/587739610235797563-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739610235797563/587739610235797563-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739610235797563/587739610235797563-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739610235797563/587739610235797563-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739610235797563/587739610235797563-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739646739677230/587739646739677230-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739646739677230/587739646739677230-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739646739677230/587739646739677230-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739646739677230/587739646739677230-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587739646739677230/587739646739677230-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741489814634803/587741489814634803-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741489814634803/587741489814634803-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741489814634803/587741489814634803-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741489814634803/587741489814634803-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741489814634803/587741489814634803-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741489820139551/587741489820139551-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741489820139551/587741489820139551-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741489820139551/587741489820139551-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741489820139551/587741489820139551-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741489820139551/587741489820139551-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741600959889429/587741600959889429-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741600959889429/587741600959889429-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741600959889429/587741600959889429-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741600959889429/587741600959889429-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741600959889429/587741600959889429-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741602030026777/587741602030026777-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741602030026777/587741602030026777-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741602030026777/587741602030026777-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741602030026777/587741602030026777-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741602030026777/587741602030026777-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741708332040308/587741708332040308-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741708332040308/587741708332040308-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741708332040308/587741708332040308-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741708332040308/587741708332040308-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741708332040308/587741708332040308-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741722823819353/587741722823819353-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741722823819353/587741722823819353-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741722823819353/587741722823819353-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741722823819353/587741722823819353-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741722823819353/587741722823819353-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741821066215606/587741821066215606-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741821066215606/587741821066215606-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741821066215606/587741821066215606-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741821066215606/587741821066215606-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741821066215606/587741821066215606-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741829653594400/587741829653594400-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741829653594400/587741829653594400-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741829653594400/587741829653594400-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741829653594400/587741829653594400-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587741829653594400/587741829653594400-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742013826203675/587742013826203675-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742013826203675/587742013826203675-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742013826203675/587742013826203675-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742013826203675/587742013826203675-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742013826203675/587742013826203675-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742061589954722/587742061589954722-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742061589954722/587742061589954722-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742061589954722/587742061589954722-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742061589954722/587742061589954722-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742061589954722/587742061589954722-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742188835242036/587742188835242036-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742188835242036/587742188835242036-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742188835242036/587742188835242036-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742188835242036/587742188835242036-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742188835242036/587742188835242036-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742189365297218/587742189365297218-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742189365297218/587742189365297218-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742189365297218/587742189365297218-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742189365297218/587742189365297218-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742189365297218/587742189365297218-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742551215702121/587742551215702121-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742551215702121/587742551215702121-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742551215702121/587742551215702121-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742551215702121/587742551215702121-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742551215702121/587742551215702121-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742577516675114/587742577516675114-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742577516675114/587742577516675114-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742577516675114/587742577516675114-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742577516675114/587742577516675114-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742577516675114/587742577516675114-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742589331374460/587742589331374460-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742589331374460/587742589331374460-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742589331374460/587742589331374460-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742589331374460/587742589331374460-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742589331374460/587742589331374460-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742775086088228/587742775086088228-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742775086088228/587742775086088228-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742775086088228/587742775086088228-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742775086088228/587742775086088228-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742775086088228/587742775086088228-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742775092969546/587742775092969546-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742775092969546/587742775092969546-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742775092969546/587742775092969546-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742775092969546/587742775092969546-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587742775092969546/587742775092969546-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587744875327717463/587744875327717463-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587744875327717463/587744875327717463-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587744875327717463/587744875327717463-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587744875327717463/587744875327717463-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587744875327717463/587744875327717463-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587745245240229897/587745245240229897-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587745245240229897/587745245240229897-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587745245240229897/587745245240229897-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587745245240229897/587745245240229897-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587745245240229897/587745245240229897-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587745539439263959/587745539439263959-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587745539439263959/587745539439263959-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587745539439263959/587745539439263959-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587745539439263959/587745539439263959-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/587745539439263959/587745539439263959-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588007003629289609/588007003629289609-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588007003629289609/588007003629289609-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588007003629289609/588007003629289609-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588007003629289609/588007003629289609-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588007003629289609/588007003629289609-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588009370147881038/588009370147881038-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588009370147881038/588009370147881038-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588009370147881038/588009370147881038-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588009370147881038/588009370147881038-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588009370147881038/588009370147881038-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588010360698896440/588010360698896440-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588010360698896440/588010360698896440-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588010360698896440/588010360698896440-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588010360698896440/588010360698896440-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588010360698896440/588010360698896440-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588015509811888189/588015509811888189-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588015509811888189/588015509811888189-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588015509811888189/588015509811888189-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588015509811888189/588015509811888189-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588015509811888189/588015509811888189-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588015510347710549/588015510347710549-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588015510347710549/588015510347710549-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588015510347710549/588015510347710549-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588015510347710549/588015510347710549-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588015510347710549/588015510347710549-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588016840170537340/588016840170537340-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588016840170537340/588016840170537340-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588016840170537340/588016840170537340-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588016840170537340/588016840170537340-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588016840170537340/588016840170537340-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588017625091735645/588017625091735645-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588017625091735645/588017625091735645-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588017625091735645/588017625091735645-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588017625091735645/588017625091735645-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588017625091735645/588017625091735645-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588017626165412027/588017626165412027-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588017626165412027/588017626165412027-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588017626165412027/588017626165412027-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588017626165412027/588017626165412027-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588017626165412027/588017626165412027-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588017627233583304/588017627233583304-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588017627233583304/588017627233583304-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588017627233583304/588017627233583304-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588017627233583304/588017627233583304-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588017627233583304/588017627233583304-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588017978364461087/588017978364461087-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588017978364461087/588017978364461087-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588017978364461087/588017978364461087-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588017978364461087/588017978364461087-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588017978364461087/588017978364461087-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588023046395723861/588023046395723861-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588023046395723861/588023046395723861-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588023046395723861/588023046395723861-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588023046395723861/588023046395723861-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588023046395723861/588023046395723861-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588023669709537408/588023669709537408-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588023669709537408/588023669709537408-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588023669709537408/588023669709537408-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588023669709537408/588023669709537408-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588023669709537408/588023669709537408-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588023721247572115/588023721247572115-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588023721247572115/588023721247572115-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588023721247572115/588023721247572115-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588023721247572115/588023721247572115-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588023721247572115/588023721247572115-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588298662511050862/588298662511050862-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588298662511050862/588298662511050862-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588298662511050862/588298662511050862-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588298662511050862/588298662511050862-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588298662511050862/588298662511050862-z.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588848901519966374/588848901519966374-g.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588848901519966374/588848901519966374-i.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588848901519966374/588848901519966374-r.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588848901519966374/588848901519966374-u.fits" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fits_train/588848901519966374/588848901519966374-z.fits" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/train.sh" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.py" afterPath="$PROJECT_DIR$/config.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/roou.py" afterPath="$PROJECT_DIR$/roou.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +524,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="model.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -34,7 +540,7 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
@@ -43,23 +549,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="roou.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="roou.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/roou.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+            <state relative-caret-position="120">
+              <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#42#57#0" expanded="true" />
+                <element signature="e#0#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="train.sh" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/train.sh">
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,7 +585,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+              <caret line="5" column="96" lean-forward="false" selection-start-line="5" selection-start-column="96" selection-end-line="5" selection-end-column="96" />
               <folding />
             </state>
           </provider>
@@ -78,8 +594,8 @@
       <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="49" column="29" lean-forward="true" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+            <state relative-caret-position="630">
+              <caret line="49" column="29" lean-forward="false" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -89,20 +605,29 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mode</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/train.sh" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/roou.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="-6" />
+    <option name="y" value="23" />
+    <option name="width" value="1364" />
+    <option name="height" value="785" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -139,22 +664,41 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="FullScreen" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.roou">
+    <configuration default="false" name="roou" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="GalaxyGAN_python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/roou.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="SDK_HOME" value="/usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/bin/python2.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="GalaxyGAN_python" />
-      <option name="SCRIPT_NAME" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/roou.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -276,6 +820,14 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.roou" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.roou" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -291,33 +843,35 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="-6" y="23" width="1364" height="785" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.114869624" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11839166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46320346" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -331,27 +885,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="49" column="29" lean-forward="true" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
@@ -361,18 +897,124 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/roou.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#42#57#0" expanded="true" />
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="58" lean-forward="false" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="96" lean-forward="false" selection-start-line="5" selection-start-column="96" selection-end-line="5" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="49" column="29" lean-forward="false" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="49" column="29" lean-forward="false" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="96" lean-forward="false" selection-start-line="5" selection-start-column="96" selection-end-line="5" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/train.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="4" column="58" lean-forward="false" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/roou.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
           <folding />
         </state>
       </provider>

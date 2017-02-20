@@ -3,5 +3,6 @@ This project is the implementation of "Generative Adversarial Networks recover f
 
 #Run our code
 ```bash
-	bash train.sh -input ~/fits_train -fwhm 1.4 -sigma 1.2 -figure figures -gpu 1 -model models
+    python roou.py -input ~/fits_train -fwhm 1.4 -sigma 1.2 -figure figures -gpu 1 -model models
 ```
+
