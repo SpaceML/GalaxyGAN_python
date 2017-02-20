@@ -1,8 +1,35 @@
 # GalaxyGAN_python
-This project is the implementation of "Generative Adversarial Networks recover features in astrophysical images of galaxies beyond the deconvolution limit" on python. 
+This project is the implementation of the Paper "Generative Adversarial Networks recover features in astrophysical images of galaxies beyond the deconvolution limit" on python.
 
-#Run our code
+##Setup
+
+##Prerequisites
+- Python with numpy
+- NVIDIA GPU + CUDA 8.0 + CuDNNv5.1
+- TensorFlow 0.12
+- EC2 AMI
+
+### Getting Started
+- Clone this repo:
 ```bash
-    python roou.py -input ~/fits_train -fwhm 1.4 -sigma 1.2 -figure figures -gpu 1 -model models
+git clone https://github.com/Ireneruru/GalaxyGAN_python.git
+cd pix2pix-tensorflow
 ```
 
+##Run our code
+###Preprocess the .FITs
+```bash
+    python roou.py -input XXX -fwhm 1.4 -sigma 1.2 -figure XXX -gpu 1 -model models
+```
+XXX is your local address.
+
+Then modify the constants in the Config.py.
+
+###Train the model
+```bash
+    python train.py
+```
+
+##Acknowledge
+
+This project is the python version of https://github.com/SpaceML/GalaxyGAN. Thanks for his work!
