@@ -13,7 +13,6 @@ This project is the implementation of the Paper "Generative Adversarial Networks
 - Clone this repo:
 ```bash
 git clone https://github.com/Ireneruru/GalaxyGAN_python.git
-cd pix2pix-tensorflow
 ```
 
 ##Run our code
