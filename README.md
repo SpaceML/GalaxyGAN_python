@@ -3,16 +3,26 @@ This project is the implementation of the Paper "Generative Adversarial Networks
 
 ##Setup
 
-##Prerequisites
-- Python with numpy
-- NVIDIA GPU + CUDA 8.0 + CuDNNv5.1
-- TensorFlow 0.12
-- EC2 AMI
+###EC2 Public AMI
+We provide an EC2 AMI with the following pre-installed packages:
 
-### Getting Started
+* CUDA
+* cuDNN
+* Tensorflow r0.12
+* python
+    as well as the FITS file we used in the paper(saved in ~/fits_train and ~/fits_test)
+
+    AMI Id: ami-96a97f80
+    . (Can be launched using p2.xlarge instance in GPU compute catagory)
+
+    [Launch](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-6f48b379) an instance.
+###Connect to Amazon EC2 Machine
+    Please follow the instruction of Amazon EC2.
+
+##Get our code    
 - Clone this repo:
 ```bash
-git clone https://github.com/Ireneruru/GalaxyGAN_python.git
+    git clone https://github.com/SpaceML/GalaxyGAN_python.git 
 ```
 
 ##Run our code
@@ -22,15 +32,22 @@ If the mode equals zero, this is the training data. If the mode equals one, the 
 ```bash
     python roou.py -input XXX -fwhm 1.4 -sigma 1.2 -figure XXX -gpu 1 -model models -mode 0
 ```
-XXX is your local address.
+XXX is your local address. On our AMI, you can skip this step due to all these have default values.
 
-Then modify the constants in the Config.py.
 
 ###Train the model
 
+If you need, you can modify the constants in the Config.py.
 ```bash
     python train.py
 ```
+This will begin to train the model. If you want to load the model which already exists, you can modify the model_path in the config.py.
+
+###Test 
+```bash 
+    python test.py
+```
+The results can be seen in the folder "result".
 
 ##Acknowledge
 
