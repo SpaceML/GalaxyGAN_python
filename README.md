@@ -18,14 +18,17 @@ cd pix2pix-tensorflow
 
 ##Run our code
 ###Preprocess the .FITs
+If the mode equals zero, this is the training data. If the mode equals one, the data is used for testing.
+
 ```bash
-    python roou.py -input XXX -fwhm 1.4 -sigma 1.2 -figure XXX -gpu 1 -model models
+    python roou.py -input XXX -fwhm 1.4 -sigma 1.2 -figure XXX -gpu 1 -model models -mode 0
 ```
 XXX is your local address.
 
 Then modify the constants in the Config.py.
 
 ###Train the model
+
 ```bash
     python train.py
 ```

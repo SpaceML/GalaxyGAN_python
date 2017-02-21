@@ -45,7 +45,7 @@ def train():
     counter = 0
     start_time = time.time()
     if not os.path.exists(conf.data_path + "/checkpoint"):
-	os.makedirs(conf.data_path + "/checkpoint")
+        os.makedirs(conf.data_path + "/checkpoint")
     if not os.path.exists(conf.output_path):
         os.makedirs(conf.output_path)
     

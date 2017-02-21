@@ -13,7 +13,7 @@ def load(path):
 def load_data():
     data = dict()
     data["train"] = load(conf.data_path + "/train")
-    data["val"] = load(conf.data_path + "/val")
+    # data["val"] = load(conf.data_path + "/val")
     data["test"] = load(conf.data_path + "/test")
     return data
 

@@ -1,6 +1,8 @@
+import math 
 from config import Config as conf
 from utils import conv2d, deconv2d, linear, batch_norm, lrelu
 import tensorflow as tf
+from IPython import embed
 
 class CGAN(object):
 
@@ -19,7 +21,7 @@ class CGAN(object):
         self.g_loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(neg, tf.ones_like(neg))) + \
                       conf.L1_lambda * tf.reduce_mean(tf.abs(self.image - self.gen_img))
 
-	t_vars = tf.trainable_variables()
+        t_vars = tf.trainable_variables()
         self.d_vars = [var for var in t_vars if 'disc' in var.name]
         self.g_vars = [var for var in t_vars if 'gen' in var.name]
 
@@ -47,20 +49,26 @@ class CGAN(object):
             e7 = batch_norm(conv2d(lrelu(e6), feature*8, name="e7"), "e7")
             e8 = batch_norm(conv2d(lrelu(e7), feature*8, name="e8"), "e8")
 
-            d1 = deconv2d(tf.nn.relu(e8), [1,2,2,feature*8], name="d1")
+            size = conf.img_size
+            num = [0] * 9
+            for i in range(1,9):
+                num[9-i]=size
+                size =(size+1)/2
+
+            d1 = deconv2d(tf.nn.relu(e8), [1,num[1],num[1],feature*8], name="d1")
             d1 = tf.concat(3, [tf.nn.dropout(batch_norm(d1, "d1"), 0.5), e7])
-            d2 = deconv2d(tf.nn.relu(d1), [1,4,4,feature*8], name="d2")
+            d2 = deconv2d(tf.nn.relu(d1), [1,num[2],num[2],feature*8], name="d2")
             d2 = tf.concat(3, [tf.nn.dropout(batch_norm(d2, "d2"), 0.5), e6])
-            d3 = deconv2d(tf.nn.relu(d2), [1,8,8,feature*8], name="d3")
-            d3 = tf.concat(3, [tf.nn.dropout(batch_norm(d3, "d3"), 0.5), e5])
-            d4 = deconv2d(tf.nn.relu(d3), [1,16,16,feature*8], name="d4")
+            d3 = deconv2d(tf.nn.relu(d2), [1,num[3],num[3],feature*8], name="d3")
+            d3 = tf.concat(3, [tf.nn.dropout(batch_norm(d3, "d3"), 0.5), e5]) 
+            d4 = deconv2d(tf.nn.relu(d3), [1,num[4],num[4],feature*8], name="d4")
             d4 = tf.concat(3, [batch_norm(d4, "d4"), e4])
-            d5 = deconv2d(tf.nn.relu(d4), [1,32,32,feature*4], name="d5")
-            d5 = tf.concat(3, [batch_norm(d5, "d5"), e3])
-            d6 = deconv2d(tf.nn.relu(d5), [1,64,64,feature*2], name="d6")
+            d5 = deconv2d(tf.nn.relu(d4), [1,num[5],num[5],feature*4], name="d5")
+            d5 = tf.concat(3, [batch_norm(d5, "d5"), e3]) 
+            d6 = deconv2d(tf.nn.relu(d5), [1,num[6],num[6],feature*2], name="d6")
             d6 = tf.concat(3, [batch_norm(d6, "d6"), e2])
-            d7 = deconv2d(tf.nn.relu(d6), [1,128,128,feature], name="d7")
-            d7 = tf.concat(3, [batch_norm(d7, "d7"), e1])
-            d8 = deconv2d(tf.nn.relu(d7), [1,256,256,conf.img_channel], name="d8")
+            d7 = deconv2d(tf.nn.relu(d6), [1,num[7],num[7],feature], name="d7")
+            d7 = tf.concat(3, [batch_norm(d7, "d7"), e1]) 
+            d8 = deconv2d(tf.nn.relu(d7), [1,num[8],num[8],conf.img_channel], name="d8")
 
             return tf.nn.tanh(d8)

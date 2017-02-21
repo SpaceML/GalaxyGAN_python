@@ -10,7 +10,8 @@ import matplotlib.pyplot as plt
 import os
 import pyfits
 import glob
-# mode : 0 training : 1
+from IPython import embed
+# mode : 0 training : 1 testing
 
 parser = argparse.ArgumentParser()
 
@@ -30,20 +31,21 @@ def adjust(origin):
 
 def roou():
     is_demo = 0
-    mode = 0
 
     parser.add_argument("--fwhm", default="1.4")
     parser.add_argument("--sig", default="1.2")
-    parser.add_argument("--input", default="/Users/ruru/Projects/GalaxyGAN_python/fits_train")   #./fits_0.01_0.02
+    parser.add_argument("--input", default="/home/ubuntu/GalaxyGAN_python/fits_train")   #./fits_0.01_0.02
     parser.add_argument("--figure", default="figures")       #./figures/test
     parser.add_argument("--gpu", default = "1")
     parser.add_argument("--model", default = "models")
+    parser.add_argument("--mode", default="0")
     args = parser.parse_args()
 
     fwhm = float(args.fwhm)
     sig  = float(args.sig)
     input =  args.input
     figure = args.figure
+    mode = int(args.mode)
 
     train_folder = '%s/train'%(args.figure)
     test_folder = '%s/test'%(args.figure)

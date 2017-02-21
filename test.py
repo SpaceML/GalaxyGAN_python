@@ -41,11 +41,9 @@ def test():
             test_count += 1
             pimg, pcond = prepocess_test(img, cond)
             gen_img = sess.run(model.gen_img, feed_dict={model.image:pimg, model.cond:pcond})
-	    embed()
             gen_img = gen_img.reshape(gen_img.shape[1:])
             gen_img = (gen_img + 1.) * 127.5
             image = np.concatenate((gen_img, cond), axis=1).astype(np.int)
-	    embed()
             imsave(image, "./test" + "/%d.jpg" % test_count)
 
 if __name__ == "__main__":

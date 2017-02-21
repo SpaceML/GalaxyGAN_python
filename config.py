@@ -1,5 +1,5 @@
 class Config:
-    data_path = "./figures/train"
+    data_path = "./figures"
     model_path = "" #"./datasets/facades/checkpoint/model_100.ckpt"
     output_path = "./results"
 
