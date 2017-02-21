@@ -10,7 +10,8 @@ We provide an EC2 AMI with the following pre-installed packages:
 * cuDNN
 * Tensorflow r0.12
 * python
-    as well as the FITS file we used in the paper(saved in ~/fits_train and ~/fits_test)
+
+as well as the FITS file we used in the paper(saved in ~/fits_train and ~/fits_test)
 
     AMI Id: ami-96a97f80
     . (Can be launched using p2.xlarge instance in GPU compute catagory)
