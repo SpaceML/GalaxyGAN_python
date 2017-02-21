@@ -13,10 +13,10 @@ We provide an EC2 AMI with the following pre-installed packages:
 
 as well as the FITS file we used in the paper(saved in ~/fits_train and ~/fits_test)
 
-    AMI Id: ami-96a97f80
+AMI Id: ami-96a97f80
     . (Can be launched using p2.xlarge instance in GPU compute catagory)
 
-    [Launch](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-6f48b379) an instance.
+ [Launch](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#LaunchInstanceWizard:ami=ami-6f48b379) an instance.
 ###Connect to Amazon EC2 Machine
     Please follow the instruction of Amazon EC2.
 
@@ -27,6 +27,12 @@ as well as the FITS file we used in the paper(saved in ~/fits_train and ~/fits_t
 ```
 
 ##Run our code
+After you launch a instance,first
+
+```bash
+    cd  GalaxyGAN_python/
+```
+
 ###Preprocess the .FITs
 If the mode equals zero, this is the training data. If the mode equals one, the data is used for testing.
 
