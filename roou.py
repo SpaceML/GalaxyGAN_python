@@ -125,7 +125,7 @@ def roou():
         if whitenoise_var < 0:
             whitenoise_var = 0.00000001
 
-        whitenoise =  np.random.normal(0, whitenoise_var * 50, (data_g.shape[0], data_g.shape[1]))
+        whitenoise =  np.random.normal(0, np.sqrt(whitenoise_var) , (data_g.shape[0], data_g.shape[1]))
 
         figure_blurred[:,:,0] = figure_blurred[:,:,0] + whitenoise
         figure_blurred[:,:,1] = figure_blurred[:,:,1] + whitenoise
