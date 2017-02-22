@@ -51,10 +51,12 @@ If you need, you can modify the constants in the Config.py.
 This will begin to train the model. If you want to load the model which already exists, you can modify the model_path in the config.py.
 
 ###Test 
+
+Before you try to test your model, you should modify the model path in the config.py. 
 ```bash 
     python test.py
 ```
-The results can be seen in the folder "result".
+The results can be seen in the folder "test".
 
 ##Acknowledge
 
