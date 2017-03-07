@@ -30,15 +30,12 @@ def adjust(origin):
     return img
 
 def roou():
-    is_demo = 0
 
-    parser.add_argument("--fwhm", default="1.4")
-    parser.add_argument("--sig", default="1.2")
-    parser.add_argument("--input", default="/home/ubuntu/GalaxyGAN_python/fits_train")   #./fits_0.01_0.02
-    parser.add_argument("--figure", default="figures")       #./figures/test
-    parser.add_argument("--gpu", default = "1")
-    parser.add_argument("--model", default = "models")
-    parser.add_argument("--mode", default="0")
+    parser.add_argument("--fwhm", default="2.5")
+    parser.add_argument("--sig", default="10")
+    parser.add_argument("--input", default="../demo/")
+    parser.add_argument("--figure", default="../demo_out/")
+    parser.add_argument("--mode", default="1")
     args = parser.parse_args()
 
     fwhm = float(args.fwhm)
@@ -49,7 +46,6 @@ def roou():
 
     train_folder = '%s/train'%(args.figure)
     test_folder = '%s/test'%(args.figure)
-    deconv_folder = '%s/deconv'%(args.figure)
 
     if not os.path.exists('./' + args.figure):
         os.makedirs("./" + args.figure)
@@ -57,8 +53,6 @@ def roou():
         os.makedirs("./" + train_folder)
     if not os.path.exists("./" + test_folder):
         os.makedirs("./" + test_folder)
-    if not os.path.exists("./" + deconv_folder):
-        os.makedirs("./"+ deconv_folder)
 
     fits = '%s/*/*-g.fits'%(input)
     files = glob.iglob(fits)
@@ -66,15 +60,6 @@ def roou():
     for i in files:
         print i
         file_name = os.path.basename(i)
-
-        #readfiles
-        if False:
-            file_name = '587725489986928743'
-            fwhm = 1.4
-            sig = 1.2
-            mode = 1
-            input_folder='fits_0.01_0.02'
-            figure_folder='figures'
 
         filename = file_name.replace("-g.fits", '')
         filename_g = '%s/%s/%s-g.fits'%(input,filename,filename)
@@ -95,22 +80,12 @@ def roou():
 
         print figure_original
 
-        if is_demo:
-            cv2.imshow("img", adjust(figure_original))
-            cv2.waitKey(0)
-
         # gaussian filter
         fwhm_use = fwhm/0.396
         gaussian_sigma = fwhm_use / 2.355
 
         # with problem
         figure_blurred = cv2.GaussianBlur(figure_original, (5,5), gaussian_sigma)
-
-        print "IIIIII"
-
-        if is_demo:
-            cv2.imshow("i", figure_blurred)
-            cv2.waitKey(0)
 
         # add white noise
         figure_original_nz =  figure_original[figure_original<0.1]
@@ -131,18 +106,6 @@ def roou():
         figure_blurred[:,:,1] = figure_blurred[:,:,1] + whitenoise
         figure_blurred[:,:,2] = figure_blurred[:,:,2] + whitenoise
 
-        if is_demo:
-            cv2.imshow('k',figure_blurred)
-            cv2.waitKey(0)
-
-        # deconvolution
-        if mode:
-            hsize = 2*np.ceil(2*gaussian_sigma)+1
-            PSF = fspecial_gauss(hsize, gaussian_sigma)
-            #figure_deconv = deconvblind(figure_blurred, PSF)
-            if is_demo:
-                cv2.imshow(figure_deconv)
-                cv2.waitKey(0)
 
         # thresold
         MAX = 4
@@ -153,53 +116,28 @@ def roou():
 
         figure_blurred[figure_blurred<MIN]=MIN
         figure_blurred[figure_blurred>MAX]=MAX
-        if mode:
-            figure_deconv[figure_deconv<MIN]=MIN
-            figure_deconv[figure_deconv>MAX]=MAX
 
         # normalize figures
         figure_original = (figure_original-MIN)/(MAX-MIN)
         figure_blurred = (figure_blurred-MIN)/(MAX-MIN)
 
-        '''if mode:
-            figure_deconv = (figure_deconv-MIN)/(MAX-MIN)
-            if is_demo:
-                plt.subplot(1,3,1), plt.subimage(figure_original), plt.subplot(1,3,2), plt.subimage(figure_blurred),plt.subplot(1,3,3), plt.subimage(figure_deconv)
-        elif is_demo:
-            plt.subplot(1,2,1), plt.subimage(figure_original), plt.subplot(1,2,2), plt.subimage(figure_blurred)
-        '''
 
         # asinh scaling
         figure_original = np.arcsinh(10*figure_original)/3
         figure_blurred = np.arcsinh(10*figure_blurred)/3
-
-        if mode:
-            figure_deconv = np.arcsinh(10*figure_deconv)/3
 
         # output result to pix2pix format
         figure_combined = np.zeros((data_g.shape[0], data_g.shape[1]*2,3))
         figure_combined[:,: data_g.shape[1],:] = figure_original[:,:,:]
         figure_combined[:, data_g.shape[1]:2*data_g.shape[1],:] = figure_blurred[:,:,:]
 
-        if is_demo:
-            cv2.imshow(figure_combined)
-            cv2.waitKey(0)
-
         if mode:
-            jpg_path = '%s/test/%s.jpg'% (figure,filename)
+            mat_path = '%s/test/%s.npy'%(figure,filename)
         else:
-            jpg_path = '%s/train/%s.jpg'% (figure,filename)
+            mat_path = '%s/train/%s.npy'%(figure,filename)
 
-        if mode == 2:
-            figure_combined_no_ori = np.zeros(data_g.shape[0], data_g.shape[1]*2,3)
-            figure_combined_no_ori[:, data_g.shape[1]:2*data_g.shape[1],:] = figure_blurred[:,:,:]
-            cv2.imwrite(figure_combined_no_ori,jpg_path)
-        else:
-            image = (figure_combined*256).astype(np.int)
-            cv2.imwrite(jpg_path, image)
+        print figure_combined
 
-        if mode:
-            deconv_path = '%s/deconv/%s.jpg'% (figure_folder,filename)
-            cv2.imwrite(figure_deconv,deconv_path)
+        np.save(mat_path, figure_combined)
 
 roou()
