@@ -1,4 +1,4 @@
-# GalaxyGAN_python
+#GalaxyGAN_python
 This project is the implementation of the Paper "Generative Adversarial Networks recover features in astrophysical images of galaxies beyond the deconvolution limit" on python.
 
 ##Setup
@@ -46,8 +46,10 @@ XXX is your local address. On our AMI, you can skip this step due to all these h
 
 If you need, you can modify the constants in the Config.py.
 ```bash
-    python train.py
+    python train.py gpu=XXX
 ```
+You can appoint which gpu to run the code by adding "gpu = XXX".
+
 This will begin to train the model. If you want to load the model which already exists, you can modify the model_path in the config.py.
 
 ###Test 
