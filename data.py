@@ -8,7 +8,7 @@ def load(path):
     for i in os.listdir(path):
         all = np.load(path +'/'+i)
         img, cond = all[:,:conf.img_size], all[:,conf.img_size:]
-    yield(img,cond,i)
+        yield(img,cond,i)
 
 def load_data():
     data = dict()
