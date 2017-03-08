@@ -42,7 +42,7 @@ def test():
             gen_img = gen_img.reshape(gen_img.shape[1:])
             gen_img = (gen_img + 1.) * 127.5
             image = np.concatenate((gen_img, cond), axis=1).astype(np.int)
-            imsave(image, "./test" + "/%d.jpg" % name)
+            imsave(image, "./test" + "/%s" % name)
 
 if __name__ == "__main__":
     test()

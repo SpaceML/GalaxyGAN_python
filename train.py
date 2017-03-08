@@ -54,7 +54,7 @@ def train():
     config.gpu_options.allow_growth = True
     with tf.Session(config=config) as sess:
         if conf.model_path == "":
-            sess.run(tf.initialize_all_variables())
+            sess.run(tf.global_variables_initializer())
         else:
             saver.restore(sess, conf.model_path)
         for epoch in xrange(conf.max_epoch):
@@ -77,10 +77,13 @@ def train():
                     gen_img = gen_img.reshape(gen_img.shape[1:])
                     gen_img = (gen_img + 1.) * 127.5
                     image = np.concatenate((gen_img, cond), axis=1).astype(np.int)
-                    imsave(image, conf.output_path + "/%d.jpg" % name)
+                    imsave(image, conf.output_path + "/%s" % name)
 
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == 'gpu=':
         os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"   # see issue #152
         os.environ["CUDA_VISIBLE_DEVICES"]=str(sys.argv[1][4:])
+    else:
+        os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"   # see issue #152
+        os.environ["CUDA_VISIBLE_DEVICES"]=str(0)
     train()
