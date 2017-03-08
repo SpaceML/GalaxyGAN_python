@@ -1,7 +1,7 @@
 class Config:
-    data_path = "./figures"
+    data_path = "/Users/ruru/Desktop/10_jpg"
     model_path = "" #"./datasets/facades/checkpoint/model_100.ckpt"
-    output_path = "./results"
+    output_path = "/Users/ruru/Desktop/10_jpg"
 
     img_size = 424
     adjust_size = 500
@@ -13,4 +13,4 @@ class Config:
     beta1 = 0.5
     max_epoch = 200
     L1_lambda = 100
-    save_per_epoch=5
+    save_per_epoch=1

@@ -1,8 +1,6 @@
-import math 
 from config import Config as conf
 from utils import conv2d, deconv2d, linear, batch_norm, lrelu
 import tensorflow as tf
-from IPython import embed
 
 class CGAN(object):
 

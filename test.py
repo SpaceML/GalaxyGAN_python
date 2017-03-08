@@ -35,16 +35,14 @@ def test():
 
     with tf.Session() as sess:
         saver.restore(sess, conf.model_path)
-        test_data = data["train"]
-        test_count = 0
-        for img, cond in test_data:
-            test_count += 1
+        test_data = data["train"]()
+        for img, cond, name in test_data:
             pimg, pcond = prepocess_test(img, cond)
             gen_img = sess.run(model.gen_img, feed_dict={model.image:pimg, model.cond:pcond})
             gen_img = gen_img.reshape(gen_img.shape[1:])
             gen_img = (gen_img + 1.) * 127.5
             image = np.concatenate((gen_img, cond), axis=1).astype(np.int)
-            imsave(image, "./test" + "/%d.jpg" % test_count)
+            imsave(image, "./test" + "/%d.jpg" % name)
 
 if __name__ == "__main__":
     test()
