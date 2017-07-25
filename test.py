@@ -35,7 +35,7 @@ def test():
 
     with tf.Session() as sess:
         saver.restore(sess, conf.model_path)
-        test_data = data["train"]()
+        test_data = data["test"]()
         for img, cond, name in test_data:
             pimg, pcond = prepocess_test(img, cond)
             gen_img = sess.run(model.gen_img, feed_dict={model.image:pimg, model.cond:pcond})
@@ -45,4 +45,10 @@ def test():
             imsave(image, "./test" + "/%s" % name)
 
 if __name__ == "__main__":
+    if len(sys.argv) > 1 and sys.argv[1] == 'gpu=':
+        os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"   # see issue #152
+        os.environ["CUDA_VISIBLE_DEVICES"]=str(sys.argv[1][4:])
+    else:
+        os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"   # see issue #152
+        os.environ["CUDA_VISIBLE_DEVICES"]=str(0)
     test()

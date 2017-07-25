@@ -1,6 +1,6 @@
 class Config:
     data_path = "figures"
-    model_path = "" 
+    model_path = "figures/checkpoint/model_20.ckpt" 
     output_path = "results"
 
     img_size = 424

@@ -66,7 +66,7 @@ def train():
                 _, M = sess.run([g_opt, model.g_loss], feed_dict={model.image:img, model.cond:cond})
                 counter += 1
                 if counter % 50 ==0:
-                    print "Epoch [%d], Iteratation [%d]: time: %4.4f, d_loss: %.8f, g_loss: %.8f" \
+                    print "Epoch [%d], Iteration [%d]: time: %4.4f, d_loss: %.8f, g_loss: %.8f" \
                       % (epoch, counter, time.time() - start_time, m, M)
             if (epoch + 1) % conf.save_per_epoch == 0:
                 save_path = saver.save(sess, conf.data_path + "/checkpoint/" + "model_%d.ckpt" % (epoch+1))
