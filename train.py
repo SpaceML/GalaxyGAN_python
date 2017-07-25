@@ -43,7 +43,6 @@ def train():
 
     saver = tf.train.Saver()
 
-    counter = 0
     start_time = time.time()
     if not os.path.exists(conf.data_path + "/checkpoint"):
         os.makedirs(conf.data_path + "/checkpoint")
@@ -58,6 +57,7 @@ def train():
         else:
             saver.restore(sess, conf.model_path)
         for epoch in xrange(conf.max_epoch):
+            counter = 0
             train_data = data["train"]()
             for img, cond, name in train_data:
                 img, cond = prepocess_train(img, cond)
@@ -65,8 +65,9 @@ def train():
                 _, m = sess.run([d_opt, model.d_loss], feed_dict={model.image:img, model.cond:cond})
                 _, M = sess.run([g_opt, model.g_loss], feed_dict={model.image:img, model.cond:cond})
                 counter += 1
-                print "Iterate [%d]: time: %4.4f, d_loss: %.8f, g_loss: %.8f" \
-                      % (counter, time.time() - start_time, m, M)
+                if counter % 50 ==0:
+                    print "Epoch [%d], Iteratation [%d]: time: %4.4f, d_loss: %.8f, g_loss: %.8f" \
+                      % (epoch, counter, time.time() - start_time, m, M)
             if (epoch + 1) % conf.save_per_epoch == 0:
                 save_path = saver.save(sess, conf.data_path + "/checkpoint/" + "model_%d.ckpt" % (epoch+1))
                 print "Model saved in file: %s" % save_path
