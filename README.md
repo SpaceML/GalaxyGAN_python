@@ -18,7 +18,8 @@ AMI Id: ami-96a97f80
 
  [Launch](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1#Images:sort=visibility) an instance.
 ### Connect to Amazon EC2 Machine
-    Please follow the instruction of Amazon EC2.
+
+Please follow the instruction of Amazon EC2.
 
 ## Prerequisites
 
@@ -35,15 +36,15 @@ We need the following python packages:
 Clone this repo:
 
 ```bash
-    git clone https://github.com/SpaceML/GalaxyGAN_python.git 
-    cd  GalaxyGAN_python/
+git clone https://github.com/SpaceML/GalaxyGAN_python.git 
+cd  GalaxyGAN_python/
 ```
 
 ## Get Our FITS Files
 The data to download is about 5GB, after unzipping it will become about 16GB.
 
 ```bash
-	bash download.sh 
+bash download.sh 
 ```
 ## Run Our Code
 
@@ -52,8 +53,8 @@ The data to download is about 5GB, after unzipping it will become about 16GB.
 If the mode equals zero, this is the training data. If the mode equals one, the data is used for testing.
 
 ```bash
-    python roou.py -input fitsdata/fits_train -fwhm 1.4 -sigma 1.2 -mode 0
-    python roou.py -input fitsdata/fits_test -fwhm 1.4 -sigma 1.2 -mode 1
+python roou.py -input fitsdata/fits_train -fwhm 1.4 -sigma 1.2 -mode 0
+python roou.py -input fitsdata/fits_test -fwhm 1.4 -sigma 1.2 -mode 1
 ```
 XXX is your local address. On our AMI, you can skip this step due to all these have default values.
 
@@ -63,7 +64,7 @@ XXX is your local address. On our AMI, you can skip this step due to all these h
 If you need, you can modify the constants in the Config.py.
 
 ```bash
-    python train.py gpu=1
+python train.py gpu=1
 ```
 You can appoint which gpu to run the code by changing "gpu=1".
 
@@ -74,7 +75,7 @@ This will start the training process. If you want to load the model which alread
 Before you try to test your model, you should modify the model path in the config.py. 
 
 ```bash 
-    python test.py
+python test.py
 ```
 The results can be seen in the folder "test".
 
