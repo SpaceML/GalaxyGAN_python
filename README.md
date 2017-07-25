@@ -20,8 +20,20 @@ AMI Id: ami-96a97f80
 ### Connect to Amazon EC2 Machine
     Please follow the instruction of Amazon EC2.
 
+## Prerequisites
+
+Linux or OSX
+
+NVIDIA GPU + CUDA CuDNN (CPU mode and CUDA without CuDNN may work with minimal modification, but untested)
+
+## Dependencies
+
+We need the following python packages:
+`cv2`, `numpy`, `scipy`, `matplotlb`, `pyfits`, `glob`, and `ipython`
+
 ## Get Our Code    
-- Clone this repo:
+Clone this repo:
+
 ```bash
     git clone https://github.com/SpaceML/GalaxyGAN_python.git 
     cd  GalaxyGAN_python/
@@ -29,9 +41,10 @@ AMI Id: ami-96a97f80
 
 ## Get Our FITS Files
 The data to download is about 5GB, after unzipping it will become about 16GB.
-	
-	bash download.sh 
 
+```bash
+	bash download.sh 
+```
 ## Run Our Code
 
 
