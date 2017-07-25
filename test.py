@@ -34,7 +34,7 @@ def test():
     start_time = time.time()
 
     with tf.Session() as sess:
-        saver.restore(sess, conf.model_path)
+        saver.restore(sess, conf.model_path_test)
         test_data = data["test"]()
         for img, cond, name in test_data:
             pimg, pcond = prepocess_test(img, cond)

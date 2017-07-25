@@ -52,10 +52,10 @@ def train():
     config = tf.ConfigProto()
     config.gpu_options.allow_growth = True
     with tf.Session(config=config) as sess:
-        if conf.model_path == "":
+        if conf.model_path_train == "":
             sess.run(tf.global_variables_initializer())
         else:
-            saver.restore(sess, conf.model_path)
+            saver.restore(sess, conf.model_path_train)
         for epoch in xrange(conf.max_epoch):
             counter = 0
             train_data = data["train"]()
