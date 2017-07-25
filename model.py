@@ -12,8 +12,8 @@ class CGAN(object):
 
         pos = self.discriminator(self.image, self.cond, False)
         neg = self.discriminator(self.gen_img, self.cond, True)
-        pos_loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(pos, tf.ones_like(pos)))
-        neg_loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(neg, tf.zeros_like(neg)))
+        pos_loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(logit=pos, labels=tf.ones_like(pos)))
+        neg_loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(logit=neg, labels=tf.zeros_like(neg)))
 
         self.d_loss = pos_loss + neg_loss
         self.g_loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(neg, tf.ones_like(neg))) + \
@@ -26,7 +26,7 @@ class CGAN(object):
     def discriminator(self, img, cond, reuse):
         dim = len(img.get_shape())
         with tf.variable_scope("disc", reuse=reuse):
-            image = tf.concat(dim - 1, [img, cond])
+            image = tf.concat([img, cond], dim - 1)
             feature = conf.conv_channel_base
             h0 = lrelu(conv2d(image, feature, name="h0"))
             h1 = lrelu(batch_norm(conv2d(h0, feature*2, name="h1"), "h1"))
