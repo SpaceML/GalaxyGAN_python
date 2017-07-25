@@ -29,7 +29,7 @@ NVIDIA GPU + CUDA CuDNN (CPU mode and CUDA without CuDNN may work with minimal m
 ## Dependencies
 
 We need the following python packages:
-`cv2`, `numpy`, `scipy`, `matplotlb`, `pyfits`, `glob`, and `ipython`
+`tensorflow`, `cv2`, `numpy`, `scipy`, `matplotlb`, `pyfits`, and `ipython`
 
 ## Get Our Code    
 Clone this repo:
