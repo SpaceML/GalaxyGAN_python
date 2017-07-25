@@ -1,5 +1,5 @@
 # GalaxyGAN_python
-This project is the implementation of the Paper "Generative Adversarial Networks recover features in astrophysical images of galaxies beyond the deconvolution limit" on python.
+This project is the implementation of the Paper "Generative Adversarial Networks recover features in astrophysical images of galaxies beyond the deconvolution limit" on python. It is the python version of https://github.com/SpaceML/GalaxyGAN. This python version doesn't include deconvolution part of the paper.
 
 ## Amazon EC2 Setup
 
@@ -78,7 +78,3 @@ Before you try to test your model, you should modify the model path in the confi
 python test.py gpu=1
 ```
 The results can be seen in the folder "test".
-
-##Acknowledge
-
-This project is the python version of https://github.com/SpaceML/GalaxyGAN. Thanks for his work!

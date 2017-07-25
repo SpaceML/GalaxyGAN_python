@@ -1,7 +1,7 @@
 class Config:
-    data_path = "/figures/train"
+    data_path = "figures"
     model_path = "" 
-    output_path = "/results/train"
+    output_path = "results"
 
     img_size = 424
     adjust_size = 500
