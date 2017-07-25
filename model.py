@@ -16,7 +16,7 @@ class CGAN(object):
         neg_loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(logits=neg, labels=tf.zeros_like(neg)))
 
         self.d_loss = pos_loss + neg_loss
-        self.g_loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(neg, tf.ones_like(neg))) + \
+        self.g_loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(logits=neg, labels=tf.ones_like(neg))) + \
                       conf.L1_lambda * tf.reduce_mean(tf.abs(self.image - self.gen_img))
 
         t_vars = tf.trainable_variables()
