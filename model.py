@@ -12,8 +12,8 @@ class CGAN(object):
 
         pos = self.discriminator(self.image, self.cond, False)
         neg = self.discriminator(self.gen_img, self.cond, True)
-        pos_loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(logit=pos, labels=tf.ones_like(pos)))
-        neg_loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(logit=neg, labels=tf.zeros_like(neg)))
+        pos_loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(logits=pos, labels=tf.ones_like(pos)))
+        neg_loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(logits=neg, labels=tf.zeros_like(neg)))
 
         self.d_loss = pos_loss + neg_loss
         self.g_loss = tf.reduce_mean(tf.nn.sigmoid_cross_entropy_with_logits(neg, tf.ones_like(neg))) + \
