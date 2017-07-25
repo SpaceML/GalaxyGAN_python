@@ -1,7 +1,7 @@
 class Config:
-    data_path = "/Users/ruru/Desktop/10_jpg"
-    model_path = "" #"./datasets/facades/checkpoint/model_100.ckpt"
-    output_path = "/Users/ruru/Desktop/10_jpg"
+    data_path = "/figures/train"
+    model_path = "" 
+    output_path = "/results/train"
 
     img_size = 424
     adjust_size = 500
