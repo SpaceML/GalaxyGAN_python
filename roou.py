@@ -57,14 +57,14 @@ def roou():
         os.makedirs("./" + train_folder)
     if not os.path.exists("./" + test_folder):
         os.makedirs("./" + test_folder)
-    if not os.path.exists("./" + deconv_folder):
-        os.makedirs("./"+ deconv_folder)
+    #if not os.path.exists("./" + deconv_folder):
+        #os.makedirs("./"+ deconv_folder)
 
     fits = '%s/*/*-g.fits'%(input)
     files = glob.iglob(fits)
 
     for i in files:
-        print i
+        #print i
         file_name = os.path.basename(i)
 
         #readfiles
@@ -93,7 +93,7 @@ def roou():
         figure_original[:,:,1] = data_r
         figure_original[:,:,2] = data_i
 
-        print figure_original
+        #print figure_original
 
         if is_demo:
             cv2.imshow("img", adjust(figure_original))
@@ -106,7 +106,7 @@ def roou():
         # with problem
         figure_blurred = cv2.GaussianBlur(figure_original, (5,5), gaussian_sigma)
 
-        print "IIIIII"
+        #print "IIIIII"
 
         if is_demo:
             cv2.imshow("i", figure_blurred)
@@ -136,7 +136,7 @@ def roou():
             cv2.waitKey(0)
 
         # deconvolution
-        if mode:
+        if mode>2:
             hsize = 2*np.ceil(2*gaussian_sigma)+1
             PSF = fspecial_gauss(hsize, gaussian_sigma)
             #figure_deconv = deconvblind(figure_blurred, PSF)
@@ -153,7 +153,7 @@ def roou():
 
         figure_blurred[figure_blurred<MIN]=MIN
         figure_blurred[figure_blurred>MAX]=MAX
-        if mode:
+        if mode>2:
             figure_deconv[figure_deconv<MIN]=MIN
             figure_deconv[figure_deconv>MAX]=MAX
 
@@ -173,7 +173,7 @@ def roou():
         figure_original = np.arcsinh(10*figure_original)/3
         figure_blurred = np.arcsinh(10*figure_blurred)/3
 
-        if mode:
+        if mode>2:
             figure_deconv = np.arcsinh(10*figure_deconv)/3
 
         # output result to pix2pix format
@@ -198,7 +198,7 @@ def roou():
             image = (figure_combined*256).astype(np.int)
             cv2.imwrite(jpg_path, image)
 
-        if mode:
+        if mode>2:
             deconv_path = '%s/deconv/%s.jpg'% (figure_folder,filename)
             cv2.imwrite(figure_deconv,deconv_path)
 

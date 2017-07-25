@@ -53,8 +53,8 @@ bash download.sh
 If the mode equals zero, this is the training data. If the mode equals one, the data is used for testing.
 
 ```bash
-python roou.py -input fitsdata/fits_train -fwhm 1.4 -sigma 1.2 -mode 0
-python roou.py -input fitsdata/fits_test -fwhm 1.4 -sigma 1.2 -mode 1
+python roou.py --input fitsdata/fits_train --fwhm 1.4 --sig 1.2 --mode 0
+python roou.py --input fitsdata/fits_test --fwhm 1.4 --sig 1.2 --mode 1
 ```
 XXX is your local address. On our AMI, you can skip this step due to all these have default values.
 
@@ -75,7 +75,7 @@ This will start the training process. If you want to load the model which alread
 Before you try to test your model, you should modify the model path in the config.py. 
 
 ```bash 
-python test.py
+python test.py gpu=1
 ```
 The results can be seen in the folder "test".
 
