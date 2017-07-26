@@ -6,6 +6,7 @@ from utils import imsave
 import tensorflow as tf
 import numpy as np
 import time
+import sys
 from IPython import embed
 
 def prepocess_test(img, cond):
