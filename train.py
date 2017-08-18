@@ -12,7 +12,7 @@ def prepocess_train(img, cond,):
     img = scipy.misc.imresize(img, [conf.adjust_size, conf.adjust_size])
     cond = scipy.misc.imresize(cond, [conf.adjust_size, conf.adjust_size])
     h1 = int(np.ceil(np.random.uniform(1e-2, conf.adjust_size - conf.train_size)))
-    w1 = int(np.ceil(np.random.uniform(1e-2, conf.adjust_size - conf.adjust_size)))
+    w1 = int(np.ceil(np.random.uniform(1e-2, conf.adjust_size - conf.train_size)))
     img = img[h1:h1 + conf.train_size, w1:w1 + conf.train_size]
     cond = cond[h1:h1 + conf.train_size, w1:w1 + conf.train_size]
     if np.random.random() > 0.5:
