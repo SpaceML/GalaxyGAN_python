@@ -41,7 +41,7 @@ cd  GalaxyGAN_python/
 ```
 
 ## Get Our FITS Files
-The data to download is about 5GB, after unzipping it will become about 16GB.
+The data to download is about 5GB, after unzipping it will become about 16GB. Download this file from Google Drive: https://drive.google.com/open?id=15AQBqUF806mn4MWsfsczOLwzasyMq7FI
 
 ```bash
 bash download.sh 
